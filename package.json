@@ -5,10 +5,10 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "app.js",
+  "main": "apps/app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev" : "nodemon app.js",
+    "start": "node apps/app.js",
+    "dev" : "nodemon apps/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
